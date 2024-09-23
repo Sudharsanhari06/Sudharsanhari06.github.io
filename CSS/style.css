@@ -125,7 +125,7 @@ section {
 /* home-image */
 .home-image {
     width: 450px;
-    min-height: 450px;
+   height: 450px;
     background-image: url(../assets/images/DSC00105-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -298,13 +298,16 @@ section {
 
 /* -----contact-section--------- */
 .contact-section {
-    padding: 10rem 10%;
+    padding: 6rem 10%;
     background-color: #0a0919;
 }
 
 .contact-section h2 {
     text-align: center;
     color: #fcb532;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
 }
 
 .contact-container {
@@ -367,19 +370,6 @@ textarea {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------footer-------- */
 footer {
     width: 100%;
@@ -434,6 +424,13 @@ footer {
     h3 {
         font-size: 1.9rem;
     }
+    .home-image{
+        margin-bottom: 1rem;
+        background-position: center;
+    }
+    .btn{
+        margin-bottom: 2rem;
+    }
     /* about section */
     .about-container {
         flex-direction: column;
@@ -441,6 +438,15 @@ footer {
     .about-content {
         margin-top: 3rem;
         width: 100%;
+    }
+    .about-image {
+        width: 350px;
+        height: 350px;
+    }
+    .about-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     /* .skill-container  */
     .skill-container {
@@ -461,6 +467,12 @@ footer {
     .contact-form{
         padding: 1.2rem 1.3rem;
         border-radius: 10px;
+    }
+
+
+    .contact-icon{
+        margin-right: 0.8rem;
+        font-size: 1.4rem;
     }
 
     /* -----footer-----  */
