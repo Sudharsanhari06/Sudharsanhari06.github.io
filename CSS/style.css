@@ -10,7 +10,7 @@ html{
     overflow-x: hidden;
 }
 
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
     background-color: #333646;
 }
 
@@ -18,7 +18,7 @@ html{
     background-color: #fcb532;
     border-radius: 1rem;
     height: 250px;
-} */
+}
 
 a{
     text-decoration: none;
