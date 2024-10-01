@@ -73,13 +73,14 @@ section {
 
 .home-section {
     width: 100vw;
-    /* height: 100vh; */
+
     padding: 8.5rem 10%;
     background-color: #0a0919;
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
+
 
 .home-content h3{
     color: #fcb532;
@@ -126,7 +127,6 @@ section {
 .btn-2 {
     background: transparent;
     color: #fcb532;
-    /* border: 2px solid #fcb532; */
 }
 
 .social-icons{
