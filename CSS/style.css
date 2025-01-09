@@ -538,9 +538,9 @@ textarea:focus {
     font-size: 1.1rem;
 }
 
-.contact-form button {
+.contact-form button{
     width: 100%;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 0;
     font-size: 1.2rem;
     background: transparent;
     outline: none;
@@ -550,10 +550,16 @@ textarea:focus {
     border-radius: 0.4rem;
     transition: 0.5s;
 }
+.contact-form button .fa-solid{
+    font-size: 1.2rem;
+    /* margin: 10px 0px 0px 0px; */
+}
 
 .contact-form button:hover {
+    background-color: #0a0919;
+    color: #fcb532;
+    border: 0;
     box-shadow: 0 0 10px #0a0919;
-    margin-bottom: 5px;
 }
 
 
@@ -566,11 +572,20 @@ footer {
     color: #0a0919;
     display: flex;
     justify-content: center;
+    /* justify-content: space-around; */
     align-items: center;
     font-weight: 500;
 }
 
+footer .upArrow{
+    position: relative;
+    left: 33%;
+}
 
+footer .upArrow .fa-solid,a{
+font-size: 1.9rem;
+color: #0a0919;
+}
 /* --------media --------- */
 
 @media(min-width:320px) and (max-width:768px) {
