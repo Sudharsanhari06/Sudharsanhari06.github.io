@@ -306,7 +306,8 @@ section {
     flex-direction: column;
     justify-content: space-between;
     color: #fcb532;
-    background: #0a0919;
+    background:#f6f6f6d2 ;
+    /* #0a0919 */
     font-size: 1.3rem;
     margin-bottom: 4rem;
 }
