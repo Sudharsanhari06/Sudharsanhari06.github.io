@@ -97,7 +97,6 @@ section {
     margin: 1rem 0;
 }
 
-
 .home-content h1 {
     color: #ffffff;
     font-size: 3rem;
@@ -112,7 +111,6 @@ section {
     font-weight: 450;
     margin-bottom: 1.5rem;
 }
-
 
 .btn {
     display: inline-block;
@@ -193,27 +191,24 @@ section {
 
 .gitimg {
     width: 70%;
-    height: 180px;
+    height: 150px;
     background-color: #ffffff;
     border-radius: 0.7rem;
     cursor: pointer;
     transition: all 0.5s;
+    padding: 0.8rem;
 }
 
 .gitimg:hover {
-    box-shadow: 0px 0px 10px #fcb532, 0px 0px 10px #fcb532;
+    box-shadow: 0px 0px 8px #fcb532, 0px 0px 8px #fcb532;
 }
 
 .gitimg img {
     border-radius: 0.7rem;
-
     width: 100%;
     height: 100%;
     object-fit: contain;
-    /* border-radius: 2rem; */
 }
-
-
 
 /* ------about section--------- */
 .about-section {
@@ -286,7 +281,8 @@ section {
     justify-content: space-between;
     align-items: center; */
 }
-.skill-item{
+
+.skill-item {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -305,7 +301,7 @@ section {
     flex-direction: column;
     justify-content: space-between;
     color: #fcb532;
-    background:#f6f6f6d2 ;
+    background: #f6f6f6d2;
     /* #0a0919 */
     font-size: 1.3rem;
     margin-bottom: 4rem;
@@ -323,9 +319,10 @@ section {
     color: #cfb431;
 }
 
-.skill-life{
+.skill-life {
     color: #db0173;
 }
+
 .skill-content .fa-brands,
 .fa-solid {
     margin-left: 10px;
@@ -333,12 +330,10 @@ section {
     overflow-y: hidden;
 }
 
-.skill{
+.skill {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .progress-bar {
     height: 0.7rem;
@@ -347,17 +342,17 @@ section {
 }
 
 .bar-html {
-    width: 90%;
+    width: 87%;
     background-color: #ea642c;
 }
 
 .bar-css {
-    width: 99.9%;
+    width: 80%;
     background-color: #2962e9;
 }
 
 .bar-js {
-    width: 99%;
+    width: 70%;
 }
 
 .skill-mysql {
@@ -365,28 +360,34 @@ section {
 }
 
 .bar-mysql {
-    width: 99%;
+    width: 50%;
     background-color: #dc6d1e;
 }
 
-.bar-lifeskills{
-    width: 85%;
-    background-color: #db0173;
-}
 .skill-python {
-    color: #3e7aaa;
+    color: #2c6999;
 }
-.skill-english{
-    color: #426ae1;
-}
-.bar-english{
-    background-color: #426ae1;
-    width: 60%;
-}
+
 .bar-python {
-    width: 35%;
+    width: 30%;
     background-color: #3e7aaa;
 }
+
+.bar-lifeskills {
+    width: 70%;
+    background-color: #db0173;
+}
+
+
+.skill-english {
+    color: #426ae1;
+}
+.bar-english {
+    background-color: #426ae1;
+    width: 70%;
+}
+
+
 
 /* ------skill-image-------- */
 
@@ -431,9 +432,11 @@ section {
     flex-direction: column;
     /* justify-content: space-around; */
 }
-.work-content .works-btn{
+
+.work-content .works-btn {
     margin: 2rem 0;
 }
+
 .work-content h3 {
     font-size: 2.3rem;
     letter-spacing: 2px;
@@ -635,8 +638,9 @@ a {
 /* --------media --------- */
 
 @media(min-width:320px) and (max-width:768px) {
+
     body {
-        width: 130%;
+        width: 120%;
     }
 
     header {
@@ -655,14 +659,12 @@ a {
 
     .nav-links li a {
         font-size: 0.9rem;
-
     }
 
     .home-section {
         /* width: 100%; */
         margin-top: 4rem;
         flex-direction: column;
-
     }
 
     .home-content {
@@ -683,7 +685,6 @@ a {
         margin-bottom: 1rem;
         background-position: center;
     }
-
     .btn {
         padding: 0.5rem 1rem;
         font-size: 1rem;
@@ -696,7 +697,8 @@ a {
         display: flex;
         justify-content: center;
     }
-    .social-icons a{
+
+    .social-icons a {
         margin-right: 1rem;
 
     }
@@ -704,8 +706,13 @@ a {
     .home-images .gitimg {
         width: 100%;
         height: 100px;
+        padding: 0 0.6rem;
+
     }
 
+    .home-images .gitimg img {
+        object-fit: contain;
+    }
 
     /* about section */
     .about-container {
@@ -745,8 +752,9 @@ a {
     .works {
         flex-direction: column;
     }
-
+    
     .work-content {
+        margin-top: 2.5rem;
         width: 100%;
     }
 
@@ -783,12 +791,5 @@ a {
 
     footer .upArrow {
         display: none;
-    }
-
-}
-
-@media (min-width:300px) and (max-width:350px){
-    body{
-        width: 150%;
     }
 }
