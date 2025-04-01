@@ -324,15 +324,7 @@ section {
 }
 
 
-.javascript {
-    background-color: #a78bfa;
-    width: 65%;
-}
 
-.react {
-    background-color: #22d3ee;
-    width: 85%;
-}
 
 .html{
     background-color: #fb7185;
@@ -343,7 +335,10 @@ section {
     background-color: #34d399;
     width: 80%;
 }
-
+.javascript {
+    background-color: #a78bfa;
+    width: 65%;
+}
 .mysql {
     background-color: #2563eb;
     width: 45%;
@@ -351,7 +346,7 @@ section {
 
 .python {
     background-color: #8b5cf6;
-    width: 50%;
+    width: 40%;
 }
 .problemsolving{
     background-color: #cfb63c;
@@ -371,155 +366,6 @@ section {
 }
 
 
-
-
-
-/* 
-.skill-container {
-    margin-top: 2rem;
-   
-} */
-
-/* .skill-item {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
-
-/* .skill-content {
-    width: 500px;
-    height: 80px;
-}
-
-.skill-content {
-    border-radius: 0.5rem;
-    padding: 8px 8px 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #fcb532;
-    background: #f6f6f6d2;
-   
-    font-size: 1.3rem;
-    margin-bottom: 4rem;
-} */
-/* 
-.skill-html {
-    color: #ea642c;
-}
-
-.skill-css {
-    color: #2962e9;
-}
-
-.skill-js,.skill-ps{
-    color: #cfb431;
-}
-
-.skill-life {
-    color: #db0173;
-}
-
-.bar-ps{
-    width: 65%;
-}
-
-
-.skill-firebase{
-    color: #ff9000;
-}
-
-.skill-git{
-    color: #642c91ca;
-}
-
-.skill-content .fa-brands,
-.fa-solid,.fa-regular {
-    margin-left: 10px;
-    font-size: 3.2rem;
-    overflow-y: hidden;
-}
-
-.skill {
-    display: flex;
-    justify-content: space-between;
-}
-
-.progress-bar {
-    height: 0.7rem;
-    border-top-right-radius: 10px;
-    background-color: #fcb532;
-}
-
-.bar-html {
-    width: 87%;
-    background-color: #ea642c;
-}
-
-.bar-css {
-    width: 80%;
-    background-color: #2962e9;
-}
-
-.bar-js {
-    width: 70%;
-}
-
-.bar-firebase{
-    width: 28%;
-    background-color:#ff9000 ;
-}
-.bar-git{
-    width: 23%;
-    background-color: #642c91c8;
-}
-.skill-mysql {
-    color: #1a6899;
-}
-
-.bar-mysql {
-    width: 50%;
-    background-color: #1a6899;
-}
-
-.skill-python {
-    color: #2c6999;
-}
-
-.bar-python {
-    width: 30%;
-    background-color: #3e7aaa;
-}
-
-.bar-lifeskills {
-    width: 70%;
-    background-color: #db0173;
-}
-
-
-.skill-english {
-    color: #426ae1;
-}
-.bar-english {
-    background-color: #426ae1;
-    width: 70%;
-} */
-
-
-
-/* ------skill-image-------- */
-
-/* .skill-image {
-    width: 350px;
-    height: 350px;
-
-}
-
-.skill-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
 
 /* ------project-section----------- */
 .project-section {
